@@ -17,4 +17,4 @@ import { BlogRoutingModule } from './blog-routing.module';
         BlogContainer
     ]
 })
-export class ShopModule { }
+export class BlogModule { }
