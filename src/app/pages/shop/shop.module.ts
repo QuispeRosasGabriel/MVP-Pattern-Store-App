@@ -1,0 +1,20 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ShopRoutingModule } from './shop-routing.module';
+import { ShopContainer } from './shop.container';
+import { ShopComponent } from './shop.component';
+
+@NgModule({
+    declarations: [
+        ShopContainer,
+        ShopComponent
+    ],
+    imports: [
+        CommonModule,
+        ShopRoutingModule
+    ],
+    exports: [
+        ShopContainer
+    ]
+})
+export class ShopModule { }
